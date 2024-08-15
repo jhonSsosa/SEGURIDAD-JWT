@@ -1,4 +1,4 @@
-package org.adaschool.api.security.jwt;
+package org.adaschool.api.security;
 
 
 import io.jsonwebtoken.ExpiredJwtException;

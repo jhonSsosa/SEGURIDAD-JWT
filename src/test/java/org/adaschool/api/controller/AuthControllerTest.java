@@ -7,7 +7,7 @@ import org.adaschool.api.controller.auth.TokenDto;
 import org.adaschool.api.data.user.UserEntity;
 import org.adaschool.api.data.user.UserService;
 import org.adaschool.api.exception.InvalidCredentialsException;
-import org.adaschool.api.security.jwt.JwtUtil;
+import org.adaschool.api.security.JwtUtil;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

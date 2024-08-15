@@ -1,7 +1,7 @@
 package org.adaschool.api.controller.auth;
 
 import org.adaschool.api.data.user.UserService;
-import org.adaschool.api.security.jwt.JwtUtil;
+import org.adaschool.api.security.JwtUtil;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

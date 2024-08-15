@@ -3,7 +3,7 @@ package org.adaschool.api.security;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import org.adaschool.api.controller.auth.TokenDto;
-import org.adaschool.api.data.user.UserRoleEnum;
+import org.adaschool.api.data.user.RoleEnum;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
@@ -21,7 +21,7 @@ public class JwtUtil {
         this.jwtConfig = jwtConfig;
     }
 
-    public TokenDto generateToken(String username, List<UserRoleEnum> roles) {
+    public TokenDto generateToken(String username, List<RoleEnum> roles) {
 
         Date expirationDate = jwtConfig.getExpirationDate();
         String token = Jwts.builder().subject(username)

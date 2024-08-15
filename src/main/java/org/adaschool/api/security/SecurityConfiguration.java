@@ -1,8 +1,6 @@
 package org.adaschool.api.security;
 
 
-import org.adaschool.api.security.jwt.JwtRequestFilter;
-import org.adaschool.api.security.jwt.JwtUserDetailsService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
